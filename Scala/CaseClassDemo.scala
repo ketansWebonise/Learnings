@@ -1,10 +1,10 @@
 object CaseClassDemo {
   def main(args: Array[String]) {
-   	val alice = new Person("Ketan", "Saxena")
-	   val bob = new Person("Divya", "Sharma")
-   	val charlie = new Person("Umar", "siddiqui")
+   	val ketan = new Person("Ketan", "Saxena")
+	   val divya = new Person("Divya", "Sharma")
+   	val umar = new Person("Umar", "siddiqui")
    
-      for (person <- List(alice, bob, charlie)) {
+      for (person <- List(ketan, divya, umar)) {
          person match {
             case Person("Alice", "kooper") => println("Hi Alice!")
             case Person("Bob", "marley") => println("Hi Bob!")
