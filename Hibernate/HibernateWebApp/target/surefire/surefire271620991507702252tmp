@@ -1,0 +1,5 @@
+#surefire
+#Tue Jan 27 18:47:49 IST 2015
+user.dir=/home/webonise/workspace/HibernateWebApp
+localRepository=/home/webonise/.m2/repository
+basedir=/home/webonise/workspace/HibernateWebApp
