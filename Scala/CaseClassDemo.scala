@@ -6,8 +6,8 @@ object CaseClassDemo {
    
       for (person <- List(ketan, divya, umar)) {
          person match {
-            case Person("Alice", "kooper") => println("Hi Alice!")
-            case Person("Bob", "marley") => println("Hi Bob!")
+            case Person("Ketan", "Saxena") => println("Hi Ketan!")
+            case Person("Divya", "Sharma") => println("Hi Divya!")
             case Person(name, last) =>
                println("Last Name: " + last + " ,First name: " + name + "?")
          }
